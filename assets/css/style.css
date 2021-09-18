@@ -1,0 +1,13 @@
+.questions {
+    text-align: center;
+}
+.question-form{
+    display: flex;
+
+    justify-content: space-around;
+    width: 100%;
+}
+.answer-button{
+    width: 50%;
+    background-color: aqua;
+}
