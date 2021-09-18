@@ -10,7 +10,7 @@ var questions = [{q:"DOM stands for...", t:"Document Object Model" , f1:"Data Ob
 
 
 var endPrompt = function() {
-    alert("Your score is " + timer  "!")
+    alert("Your score is " + timer + "!")
     var record = {name:playerName, score:timer};
     localStorage.setItem(record, JSON.stringify(record));
     var recordListEl = document.createElement("ul");
